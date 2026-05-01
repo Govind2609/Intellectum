@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Community — Intellectum Inc</title>
+<link rel="icon" type="image/png" href="Logo.png" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">INTELLE<span>C</span>TUM</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#services">Services</a></li>
+    <li><a href="library.html">Library</a></li>
+    <li><a href="community.html" class="active">Community</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- COMMUNITY CHAT -->
+<section id="community">
+  <div class="reveal" style="text-align: center; margin-bottom: 2rem;">
+    <div class="section-label">Community Engagement</div>
+    <h2 class="section-title">Connect & Collaborate</h2>
+    <p class="section-body" style="max-width: 600px; margin: 0 auto;">Join domain-specific conversations, share knowledge, and network with professionals across various industries.</p>
+  </div>
+
+  <div class="chat-container reveal">
+    <div class="domain-sidebar">
+      <div class="section-label" style="margin-bottom: 1rem;">Domains</div>
+      <div class="domain-list">
+        <div class="domain-item active" data-domain="general">
+          <span class="icon">🌐</span>
+          <span>General Chat</span>
+        </div>
+        <div class="domain-item" data-domain="law">
+          <span class="icon">⚖️</span>
+          <span>Law</span>
+        </div>
+        <div class="domain-item" data-domain="software">
+          <span class="icon">💻</span>
+          <span>Software Development</span>
+        </div>
+        <div class="domain-item" data-domain="management">
+          <span class="icon">📊</span>
+          <span>Management</span>
+        </div>
+        <div class="domain-item" data-domain="finance">
+          <span class="icon">💰</span>
+          <span>Finance</span>
+        </div>
+        <div class="domain-item" data-domain="hr">
+          <span class="icon">👥</span>
+          <span>Human Resources</span>
+        </div>
+        <div class="domain-item" data-domain="marketing">
+          <span class="icon">📢</span>
+          <span>Marketing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-main">
+      <div class="chat-header">
+        <h3 id="chat-title">🌐 General Chat</h3>
+      </div>
+      <div class="chat-messages" id="chat-messages">
+        <!-- Messages will be loaded dynamically -->
+      </div>
+      <div class="chat-input-area">
+        <input type="text" id="message-input" placeholder="Type your message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">INTELLE<span>C</span>TUM</div>
+  <div class="footer-copy">© 2025 Intellectum Inc. Empowering Minds. Elevating Organisations.</div>
+</footer>
+
+<script src="assets/js/common.js" defer></script>
+<script src="assets/js/community.js" defer></script>
+</body>
+</html>

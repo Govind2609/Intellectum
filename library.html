@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Library — Intellectum Inc</title>
+<link rel="icon" type="image/png" href="Logo.png" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">INTELLE<span>C</span>TUM</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#services">Services</a></li>
+    <li><a href="library.html" class="active">Library</a></li>
+    <li><a href="community.html">Community</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- CONTENT LIBRARY -->
+<section id="library">
+  <div class="library-header reveal">
+    <div class="section-label">Content Library</div>
+    <h2 class="section-title">Past Events Showcase</h2>
+    <p class="section-body" style="max-width: 700px; margin: 0 auto;">Explore our curated collection of past events, workshops, and knowledge sessions. Each event represents a milestone in our journey of empowering professionals and organisations.</p>
+  </div>
+
+  <div class="filter-container reveal">
+    <button class="filter-btn active" data-filter="all">All Events</button>
+    <button class="filter-btn" data-filter="law">Law</button>
+    <button class="filter-btn" data-filter="technology">Technology</button>
+    <button class="filter-btn" data-filter="business">Business</button>
+    <button class="filter-btn" data-filter="management">Management</button>
+    <button class="filter-btn" data-filter="finance">Finance</button>
+    <button class="filter-btn" data-filter="hr">HR</button>
+  </div>
+
+  <div class="events-grid">
+    <div class="event-card reveal" data-category="law" style="transition-delay: 0.05s">
+      <div class="event-image">
+        <img src="/Images/hero-images/hero1.jpg" alt="Corporate Compliance Masterclass" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Law</span>
+          <span class="event-tag">Workshop</span>
+        </div>
+        <h3>Corporate Compliance Masterclass</h3>
+        <p>Comprehensive workshop on GDPR compliance, regulatory frameworks, and corporate governance best practices for modern businesses.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Dec 15, 2024</span>
+          <span>👥 120+ Attendees</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="technology" style="transition-delay: 0.1s">
+      <div class="event-image">
+        <img src="/Images/hero-images/hero2.jpg" alt="AI & Machine Learning Summit" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Technology</span>
+          <span class="event-tag">Hackathon</span>
+        </div>
+        <h3>AI & Machine Learning Summit</h3>
+        <p>24-hour intensive hackathon exploring AI applications in business, featuring industry experts and hands-on workshops.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Nov 28, 2024</span>
+          <span>👥 200+ Developers</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="business" style="transition-delay: 0.15s">
+      <div class="event-image">
+        <img src="/Images/hero-images/hero3.jpg" alt="Strategic Leadership Forum" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Business</span>
+          <span class="event-tag">Conference</span>
+        </div>
+        <h3>Strategic Leadership Forum</h3>
+        <p>Executive-level conference focusing on strategic decision-making, market expansion, and organizational transformation.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Nov 10, 2024</span>
+          <span>👥 80+ Executives</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="management" style="transition-delay: 0.2s">
+      <div class="event-image">
+        <img src="/images/hero-images/h1.jpg" alt="Agile Transformation Workshop" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Management</span>
+          <span class="event-tag">Seminar</span>
+        </div>
+        <h3>Agile Transformation Workshop</h3>
+        <p>Practical seminar on implementing agile methodologies across organizations, from startups to enterprises.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Oct 22, 2024</span>
+          <span>👥 150+ Managers</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="finance" style="transition-delay: 0.25s">
+      <div class="event-image">
+        <img src="/images/hero-images/h2.jpg" alt="Financial Forecasting in AI Era" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Finance</span>
+          <span class="event-tag">Webinar</span>
+        </div>
+        <h3>Financial Forecasting in AI Era</h3>
+        <p>Virtual webinar exploring AI-powered financial tools, predictive analytics, and modern forecasting techniques.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Oct 5, 2024</span>
+          <span>👥 300+ Participants</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="hr" style="transition-delay: 0.3s">
+      <div class="event-image">
+        <img src="/images/hero-images/h3.jpg" alt="Remote Team Management Summit" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">HR</span>
+          <span class="event-tag">Workshop</span>
+        </div>
+        <h3>Remote Team Management Summit</h3>
+        <p>Interactive workshop on building high-performing remote teams, virtual onboarding, and distributed leadership.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Sep 18, 2024</span>
+          <span>👥 180+ HR Leaders</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="technology law" style="transition-delay: 0.35s">
+      <div class="event-image">
+        <img src="/images/hero-images/h4.jpg" alt="Cybersecurity & Data Privacy Forum" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Technology</span>
+          <span class="event-tag">Law</span>
+          <span class="event-tag">Conference</span>
+        </div>
+        <h3>Cybersecurity & Data Privacy Forum</h3>
+        <p>Joint conference addressing cybersecurity threats, data protection regulations, and compliance strategies.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Aug 30, 2024</span>
+          <span>👥 250+ Professionals</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="business management" style="transition-delay: 0.4s">
+      <div class="event-image">
+        <img src="/images/hero-images/h5.jpeg" alt="Startup Growth Bootcamp" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Business</span>
+          <span class="event-tag">Management</span>
+          <span class="event-tag">Summit</span>
+        </div>
+        <h3>Startup Growth Bootcamp</h3>
+        <p>Intensive bootcamp for startup founders covering scaling strategies, funding, and team building.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Aug 12, 2024</span>
+          <span>👥 100+ Founders</span> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="event-card reveal" data-category="finance business" style="transition-delay: 0.45s">
+      <div class="event-image">
+        <img src="/Images/hero-images/hero1.jpg" alt="Investment Strategy Masterclass" loading="lazy" width="400" height="250">
+      </div>
+      <div class="event-content">
+        <div class="event-tags">
+          <span class="event-tag">Finance</span>
+          <span class="event-tag">Business</span>
+          <span class="event-tag">Workshop</span>
+        </div>
+        <h3>Investment Strategy Masterclass</h3>
+        <p>Advanced workshop on portfolio management, risk assessment, and strategic investment planning.</p>
+        <div class="event-meta">
+          <!-- <span>📅 Jul 25, 2024</span>
+          <span>👥 90+ Investors</span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">INTELLE<span>C</span>TUM</div>
+  <div class="footer-copy">© 2026 Intellectum Inc. Empowering Minds. Elevating Organisations.</div>
+</footer>
+
+<script src="assets/js/common.js" defer></script>
+<script src="assets/js/events.js" defer></script>
+</body>
+</html>
